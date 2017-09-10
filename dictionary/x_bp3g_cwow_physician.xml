@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Physician" max_length="40" name="x_bp3g_cwow_physician" type="collection">
+        <element label="Degrees" max_length="40" name="degrees" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element display="true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

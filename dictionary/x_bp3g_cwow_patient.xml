@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Patient" max_length="40" name="x_bp3g_cwow_patient" type="collection">
+        <element label="Address" max_length="32" name="address" reference="x_bp3g_cwow_address" type="reference"/>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element choice="3" default="M" label="Gender" max_length="1" name="gender" type="string">
+            <choice>
+                <element label="Male" sequence="1" value="M"/>
+                <element label="Female" sequence="2" value="F"/>
+            </choice>
+        </element>
+        <element label="Home Facililty" max_length="32" name="home_facililty" reference="x_bp3g_cwow_facility" type="reference"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element label="Primary Modality" max_length="32" name="primary_modality" reference="x_bp3g_cwow_modality" type="reference"/>
+        <element label="Primary Physician" max_length="32" name="primary_physician" reference="x_bp3g_cwow_physician" type="reference"/>
+        <index name="index">
+            <element name="primary_modality"/>
+        </index>
+        <index name="index2">
+            <element name="address"/>
+        </index>
+        <index name="index3">
+            <element name="primary_physician"/>
+        </index>
+        <index name="index4">
+            <element name="home_facililty"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Facility Shift" max_length="40" name="x_bp3g_cwow_facility_shift" type="collection">
+        <element choice="3" label="Day Of Week" max_length="40" name="day_of_week" type="string">
+            <choice>
+                <element label="Monday" sequence="10" value="Monday"/>
+                <element label="Tuesday" sequence="20" value="Tuesday"/>
+                <element label="Wednesday" sequence="30" value="Wednesday"/>
+                <element label="Thursday" sequence="40" value="Thursday"/>
+                <element label="Friday" sequence="50" value="Friday"/>
+                <element label="Saturday" sequence="60" value="Saturday"/>
+                <element label="Sunday" sequence="70" value="Sunday"/>
+            </choice>
+        </element>
+        <element label="End Hours" max_length="40" name="end_hours" type="glide_time"/>
+        <element label="Facility" max_length="32" name="facility" reference="x_bp3g_cwow_facility" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Start Hours" max_length="40" name="start_hours" type="glide_time"/>
+        <index name="index">
+            <element name="facility"/>
+        </index>
+    </element>
+</database>

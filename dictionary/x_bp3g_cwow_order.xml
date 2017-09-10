@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Order" max_length="40" name="x_bp3g_cwow_order" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Effective From" max_length="40" name="effective_from" type="glide_date"/>
+        <element label="Effective To" max_length="40" name="effective_to" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Diet" label="Order Type" max_length="40" name="order_type" type="string">
+            <choice>
+                <element label="Diet" sequence="1" value="Diet"/>
+                <element label="Treatment" sequence="2" value="Treatment"/>
+                <element label="Medication" sequence="3" value="Medication"/>
+                <element label="Lab" sequence="4" value="Lab"/>
+            </choice>
+        </element>
+        <element label="Patient" max_length="32" name="patient" reference="x_bp3g_cwow_patient" type="reference"/>
+        <element label="Physician" max_length="32" name="physician" reference="x_bp3g_cwow_physician" type="reference"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+        <index name="index2">
+            <element name="physician"/>
+        </index>
+    </element>
+</database>

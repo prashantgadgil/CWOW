@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Address" max_length="40" name="x_bp3g_cwow_address" type="collection">
+        <element label="Address1" max_length="40" name="address1" type="string"/>
+        <element label="Address2" max_length="40" name="address2" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element default="USA" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element label="Texas" sequence="1" value="TX"/>
+                <element label="California" sequence="2" value="CA"/>
+                <element label="Colorado" sequence="3" value="CO"/>
+                <element label="Tennessee" sequence="4" value="TN"/>
+            </choice>
+        </element>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Modalities-Facilities" max_length="40" name="x_bp3g_cwow_m2m_modalities_facilities" type="collection">
+        <element label="Facility" max_length="32" name="facility" reference="x_bp3g_cwow_facility" type="reference"/>
+        <element label="Modality" max_length="32" name="modality" reference="x_bp3g_cwow_modality" type="reference"/>
+        <index name="index">
+            <element name="modality"/>
+        </index>
+        <index name="index2">
+            <element name="facility"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="primary_physician" label="Primary Physician" language="en" table="x_bp3g_cwow_patient">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>primary_physician</element>
+            <help/>
+            <hint/>
+            <label>Primary Physician</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_patient</name>
+            <plural>Primary Physicians</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-10 16:39:37</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>bb52f1bedb410700e6a0d5f0cf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Primary Physician</sys_name>
+            <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+            <sys_update_name>sys_documentation_x_bp3g_cwow_patient_primary_physician_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-10 16:39:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Roles-Teammates" max_length="40" name="x_bp3g_cwow_m2m_clinic_roles_teammates" type="collection">
+        <element label="Clinic Role" max_length="32" name="clinic_role" reference="x_bp3g_cwow_clinic_role" type="reference"/>
+        <element label="Teammate" max_length="32" name="teammate" reference="x_bp3g_cwow_teammate" type="reference"/>
+        <index name="index">
+            <element name="clinic_role"/>
+        </index>
+        <index name="index2">
+            <element name="teammate"/>
+        </index>
+    </element>
+</database>
