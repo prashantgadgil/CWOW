@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Dialysate Bath" max_length="40" name="x_bp3g_cwow_dialysate_bath" type="collection">
+        <element label="Calcium" max_length="40" name="calcium" type="float"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element choice="3" label="Concentration Type" max_length="40" name="concentration_type" type="string">
+            <choice>
+                <element label="LIQUID" sequence="10" value="LIQUID"/>
+                <element label="SOLID" sequence="20" value="SOLID"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Potassium" max_length="40" name="potassium" type="float"/>
+    </element>
+</database>

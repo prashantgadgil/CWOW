@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Order" max_length="40" name="x_bp3g_cwow_order" type="collection">
+        <element choice="1" label="Access" max_length="40" name="access" type="choice">
+            <choice/>
+        </element>
+        <element label="Base Sodium" max_length="40" name="base_sodium" type="integer"/>
+        <element label="Bicarbonate" max_length="40" name="bicarbonate" type="integer"/>
+        <element label="Blood Flow Rate" max_length="40" name="blood_flow_rate" type="integer"/>
+        <element label="Calories" max_length="40" name="calories" type="integer"/>
+        <element label="Comments" max_length="40" name="comments" type="journal_input"/>
+        <element choice="3" default="No" label="Concurrent Access" max_length="40" name="concurrent_access" type="choice">
+            <choice>
+                <element label="No" sequence="10" value="No"/>
+                <element label="Yes" sequence="20" value="Yes"/>
+            </choice>
+        </element>
         <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Dialysate Bath" max_length="32" name="dialysate_bath" reference="x_bp3g_cwow_dialysate_bath" type="reference"/>
+        <element label="Dialysate Flow Rate" max_length="40" name="dialysate_flow_rate" type="integer"/>
+        <element label="Dialysate Temprature" max_length="40" name="dialysate_temprature" type="integer"/>
+        <element label="Dialyzer" max_length="32" name="dialyzer" reference="x_bp3g_cwow_dialyzer" type="reference"/>
         <element label="Effective From" max_length="40" name="effective_from" type="glide_date"/>
         <element label="Effective To" max_length="40" name="effective_to" type="glide_date"/>
+        <element label="Fluid" max_length="40" name="fluid" type="integer"/>
+        <element label="Max UF Rate" max_length="40" name="max_uf_rate" type="float"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Written" label="Order Source" max_length="40" name="order_source" type="choice">
+            <choice>
+                <element label="Secure Message" sequence="10" value="Secure Message"/>
+                <element label="Verbal/Phone" sequence="20" value="Verbal/Phone"/>
+                <element label="Written" sequence="30" value="Written"/>
+            </choice>
+        </element>
         <element choice="3" default="Diet" label="Order Type" max_length="40" name="order_type" type="string">
             <choice>
                 <element label="Diet" sequence="1" value="Diet"/>
@@ -14,12 +41,29 @@
             </choice>
         </element>
         <element label="Patient" max_length="32" name="patient" reference="x_bp3g_cwow_patient" type="reference"/>
+        <element label="Phosphorus" max_length="40" name="phosphorus" type="integer"/>
         <element label="Physician" max_length="32" name="physician" reference="x_bp3g_cwow_physician" type="reference"/>
+        <element label="Potassium" max_length="40" name="potassium" type="integer"/>
+        <element label="Protein" max_length="40" name="protein" type="float"/>
+        <element label="Sodium" max_length="40" name="sodium" type="integer"/>
+        <element label="Target Weight" max_length="40" name="target_weight" type="float"/>
+        <element label="Treatment Frequency" max_length="40" name="treatment_frequency" type="string"/>
+        <element label="Treatment Time" max_length="40" name="treatment_time" type="integer"/>
+        <element label="Weight for Calculation" max_length="40" name="weight_for_calculation" type="integer"/>
+        <element choice="1" label="Weight Used" max_length="40" name="weight_used" type="choice">
+            <choice/>
+        </element>
         <index name="index">
             <element name="patient"/>
         </index>
         <index name="index2">
+            <element name="dialyzer"/>
+        </index>
+        <index name="index3">
             <element name="physician"/>
+        </index>
+        <index name="index4">
+            <element name="dialysate_bath"/>
         </index>
     </element>
 </database>

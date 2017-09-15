@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>name</display_field>
+        <field_list>corp_id,number,name,address</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description>List of Facilities</short_description>
+        <size>md</size>
+        <sp_column display_value="1">fbc3fb77db858700e6a0d5f0cf9619e5</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-14 04:40:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>991437b7db858700e6a0d5f0cf9619dc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>List of Facilities</sys_name>
+        <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+        <sys_update_name>sp_instance_table_991437b7db858700e6a0d5f0cf9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-14 10:28:48</sys_updated_on>
+        <table>x_bp3g_cwow_facility</table>
+        <title>List of Facilities</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=991437b7db858700e6a0d5f0cf9619dc"/>
+</record_update>

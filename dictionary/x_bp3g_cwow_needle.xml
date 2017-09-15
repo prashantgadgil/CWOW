@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Needle" max_length="40" name="x_bp3g_cwow_needle" type="collection">
+        <element display="true" label="Code" max_length="40" name="code" type="string"/>
+        <element label="Guage" max_length="40" name="guage" type="integer"/>
+        <element label="Length" max_length="40" name="length" type="float"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Tip Type" max_length="40" name="tip_type" type="string"/>
+    </element>
+</database>

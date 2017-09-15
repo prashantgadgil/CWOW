@@ -2,9 +2,18 @@
 <database>
     <element label="Facility" max_length="40" name="x_bp3g_cwow_facility" type="collection">
         <element label="Address" max_length="32" name="address" reference="x_bp3g_cwow_address" type="reference"/>
+        <element label="Autoflow" max_length="40" name="autoflow" type="boolean"/>
+        <element label="Base Sodium From" max_length="40" name="base_sodium_from" type="integer"/>
+        <element label="Base Sodium To" max_length="40" name="base_sodium_to" type="integer"/>
+        <element label="Blood Flow Rate" max_length="40" name="blood_flow_rate" type="integer"/>
         <element label="Corp ID" max_length="8" name="corp_id" type="string"/>
+        <element label="Dialysate Temp From" max_length="40" name="dialysate_temp_from" type="integer"/>
+        <element label="Dialysate Temp To" max_length="40" name="dialysate_temp_to" type="integer"/>
+        <element label="Modalities" max_length="4000" name="modalities" reference="x_bp3g_cwow_modality" type="glide_list"/>
         <element display="true" label="Name" max_length="50" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Preferred Base Sodium" max_length="40" name="preferred_base_sodium" type="integer"/>
+        <element label="Preferred Dialysate Temp" max_length="40" name="preferred_dialysate_temp" type="integer"/>
         <index name="index">
             <element name="address"/>
         </index>

@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>bfa771f2db810700e6a0d5f0cf9619fc</sys_id>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>222737d8dbd5c700e6a0d5f0cf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>patient</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>33a771f2db810700e6a0d5f0cf9619fd</sys_id>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>a22737d8dbd5c700e6a0d5f0cf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,69 +33,69 @@
             <element>order_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>b3a771f2db810700e6a0d5f0cf9619fd</sys_id>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>262737d8dbd5c700e6a0d5f0cf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>physician</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>a62737d8dbd5c700e6a0d5f0cf96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>37a771f2db810700e6a0d5f0cf9619fd</sys_id>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>2a2737d8dbd5c700e6a0d5f0cf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>b7a771f2db810700e6a0d5f0cf9619fd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>physician</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>3ba771f2db810700e6a0d5f0cf9619fd</sys_id>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>aa2737d8dbd5c700e6a0d5f0cf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>effective_from</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>bba771f2db810700e6a0d5f0cf9619fd</sys_id>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>2e2737d8dbd5c700e6a0d5f0cf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,55 @@
             <element>effective_to</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 17:02:49</sys_created_on>
-            <sys_id>3fa771f2db810700e6a0d5f0cf9619fd</sys_id>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>ae2737d8dbd5c700e6a0d5f0cf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 17:02:49</sys_updated_on>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight_used</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>222737d8dbd5c700e6a0d5f0cf96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight_for_calculation</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:10:42</sys_created_on>
+            <sys_id>a22737d8dbd5c700e6a0d5f0cf96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:10:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_source</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:11:55</sys_created_on>
+            <sys_id>2c7773d8dbd5c700e6a0d5f0cf9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_cwow_order" sys_domain="global" view="Default view">5c97bdb2db810700e6a0d5f0cf961968</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:11:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

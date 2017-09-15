@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="order_source" table="x_bp3g_cwow_order" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Secure Message</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_order</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:13:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f97bbd8dbd5c700e6a0d5f0cf961962</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:16:03</sys_updated_on>
+            <value>Secure Message</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verbal/Phone</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_order</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:12:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e897fb98dbd5c700e6a0d5f0cf9619a1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:15:43</sys_updated_on>
+            <value>Verbal/Phone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Written</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_order</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a787f7d8dbd5c700e6a0d5f0cf9619d2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:15:53</sys_updated_on>
+            <value>Written</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>order_source</element>
+            <name>x_bp3g_cwow_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 18:12:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>af87f7d8dbd5c700e6a0d5f0cf9619d2</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>order_source</sys_name>
+            <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_cwow_order_order_source</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 18:16:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

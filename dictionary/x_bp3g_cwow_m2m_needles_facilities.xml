@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label=" Facilities-Needles" max_length="40" name="x_bp3g_cwow_m2m_needles_facilities" type="collection">
+        <element label="Facility" max_length="32" name="facility" reference="x_bp3g_cwow_facility" type="reference"/>
+        <element label="Needle" max_length="32" name="needle" reference="x_bp3g_cwow_needle" type="reference"/>
+        <index name="index">
+            <element name="needle"/>
+        </index>
+        <index name="index2">
+            <element name="facility"/>
+        </index>
+    </element>
+</database>

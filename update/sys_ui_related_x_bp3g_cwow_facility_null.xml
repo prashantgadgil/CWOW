@@ -3,17 +3,87 @@
     <sys_ui_related sys_domain="global" table="x_bp3g_cwow_facility" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Facility - Default view" name="x_bp3g_cwow_facility" related_list="NULL" sys_domain="global" view="Default view">3df3fdbedb410700e6a0d5f0cf9619d1</list_id>
+            <list_id display_value="Facility - Default view" name="x_bp3g_cwow_facility" related_list="NULL" sys_domain="global" view="Default view">292f179cdb95c700e6a0d5f0cf961943</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_bp3g_cwow_m2m_modalities_facilities.facility</related_list>
+            <related_list>x_bp3g_cwow_m2m_dialyzers_facilities.facility</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 16:46:35</sys_created_on>
-            <sys_id>fdf3fdbedb410700e6a0d5f0cf9619d2</sys_id>
+            <sys_created_on>2017-09-15 16:25:46</sys_created_on>
+            <sys_id>ed2f179cdb95c700e6a0d5f0cf961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 16:46:35</sys_updated_on>
+            <sys_updated_on>2017-09-15 16:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Facility - Default view" name="x_bp3g_cwow_facility" related_list="NULL" sys_domain="global" view="Default view">292f179cdb95c700e6a0d5f0cf961943</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_bp3g_cwow_m2m_needles_facilities.facility</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 16:25:46</sys_created_on>
+            <sys_id>e12f179cdb95c700e6a0d5f0cf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 16:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Facility - Default view" name="x_bp3g_cwow_facility" related_list="NULL" sys_domain="global" view="Default view">292f179cdb95c700e6a0d5f0cf961943</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_bp3g_cwow_m2m_dialysate_ba_facilities.facility</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 16:25:46</sys_created_on>
+            <sys_id>e52f179cdb95c700e6a0d5f0cf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 16:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Facility - Default view" name="x_bp3g_cwow_facility" related_list="NULL" sys_domain="global" view="Default view">292f179cdb95c700e6a0d5f0cf961943</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_bp3g_cwow_facility_shift.facility</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 16:25:46</sys_created_on>
+            <sys_id>e92f179cdb95c700e6a0d5f0cf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 16:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Facility - Default view" name="x_bp3g_cwow_facility" related_list="NULL" sys_domain="global" view="Default view">292f179cdb95c700e6a0d5f0cf961943</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_bp3g_cwow_patient.home_facililty</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 16:25:46</sys_created_on>
+            <sys_id>ed2f179cdb95c700e6a0d5f0cf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 16:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Facility - Default view" name="x_bp3g_cwow_facility" related_list="NULL" sys_domain="global" view="Default view">292f179cdb95c700e6a0d5f0cf961943</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>x_bp3g_cwow_teammate.primary_facility</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 16:25:46</sys_created_on>
+            <sys_id>e12f179cdb95c700e6a0d5f0cf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 16:25:46</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Facility - Default view</calculated_name>
@@ -24,11 +94,11 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 16:46:35</sys_created_on>
+            <sys_created_on>2017-09-15 16:25:46</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3df3fdbedb410700e6a0d5f0cf9619d1</sys_id>
+            <sys_id>292f179cdb95c700e6a0d5f0cf961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Facility - Default view</sys_name>
             <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
@@ -37,7 +107,7 @@
             <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
             <sys_update_name>sys_ui_related_x_bp3g_cwow_facility_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 16:46:35</sys_updated_on>
+            <sys_updated_on>2017-09-15 16:25:46</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

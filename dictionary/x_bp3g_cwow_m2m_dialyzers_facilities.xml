@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Facilities-Dialyzers " max_length="40" name="x_bp3g_cwow_m2m_dialyzers_facilities" type="collection">
+        <element label="Dialyzer" max_length="32" name="dialyzer" reference="x_bp3g_cwow_dialyzer" type="reference"/>
+        <element label="Facility" max_length="32" name="facility" reference="x_bp3g_cwow_facility" type="reference"/>
+        <index name="index">
+            <element name="dialyzer"/>
+        </index>
+        <index name="index2">
+            <element name="facility"/>
+        </index>
+    </element>
+</database>

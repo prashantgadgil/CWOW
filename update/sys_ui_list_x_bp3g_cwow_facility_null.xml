@@ -58,11 +58,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-10 20:46:41</sys_created_on>
+            <sys_created_on>2017-09-10 20:43:09</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b6ea6a3edbc10700e6a0d5f0cf96190a</sys_id>
+            <sys_id>4b1aa23edbc10700e6a0d5f0cf96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_bp3g_cwow_facility</sys_name>
             <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
@@ -71,8 +71,8 @@
             <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
             <sys_update_name>sys_ui_list_x_bp3g_cwow_facility_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-10 20:46:41</sys_updated_on>
-            <sys_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user>
+            <sys_updated_on>2017-09-10 20:43:09</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>CWOW Home - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="cwow_home">60568900db598700e6a0d5f0cf961901</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-14 10:42:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>99178540db598700e6a0d5f0cf961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CWOW Home - Container 1</sys_name>
+        <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+        <sys_update_name>sp_container_99178540db598700e6a0d5f0cf961914</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-14 10:42:53</sys_updated_on>
+        <width>container</width>
+    </sp_container>
+</record_update>

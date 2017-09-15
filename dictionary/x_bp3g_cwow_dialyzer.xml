@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Dialyzer" max_length="40" name="x_bp3g_cwow_dialyzer" type="collection">
+        <element label="KOA Factor" max_length="40" name="koa_factor" type="integer"/>
+        <element choice="3" label="Manufacturer" max_length="40" name="manufacturer" type="string">
+            <choice>
+                <element label="Fresenius" sequence="10" value="Fresenius"/>
+                <element label="Gambro" sequence="20" value="Gambro"/>
+                <element label="Asahi" sequence="30" value="Asahi"/>
+            </choice>
+        </element>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Series" max_length="40" name="series" type="string"/>
+    </element>
+</database>
