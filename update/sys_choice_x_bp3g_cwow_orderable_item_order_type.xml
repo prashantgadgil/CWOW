@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="order_type" table="x_bp3g_cwow_orderable_item" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Diet</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_orderable_item</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 12:45:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc565f77db958f00e6a0d5f0cf9619d3</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 12:46:54</sys_updated_on>
+            <value>Diet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>ICHD Treatment</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_orderable_item</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 12:47:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fa65fb7db958f00e6a0d5f0cf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 12:47:30</sys_updated_on>
+            <value>ICHD Treatment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Lab</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_orderable_item</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 12:48:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bf617f7db958f00e6a0d5f0cf9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 12:48:52</sys_updated_on>
+            <value>Lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>order_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Medication</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_orderable_item</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 12:47:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25c6d3f7db958f00e6a0d5f0cf96194c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 12:48:13</sys_updated_on>
+            <value>Medication</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>order_type</element>
+            <name>x_bp3g_cwow_orderable_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 12:45:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b4565f77db958f00e6a0d5f0cf9619d4</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>order_type</sys_name>
+            <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_cwow_orderable_item_order_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 12:48:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

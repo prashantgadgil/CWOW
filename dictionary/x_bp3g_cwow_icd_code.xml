@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ICD Code" max_length="40" name="x_bp3g_cwow_icd_code" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Effective Date" max_length="40" name="effective_date" type="glide_date"/>
+        <element label="Expiry Date" max_length="40" name="expiry_date" type="glide_date"/>
+        <element label="Flagged for Review" max_length="40" name="flagged_for_review" type="boolean"/>
+        <element label="Long Name" max_length="100" name="long_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="OID" max_length="40" name="oid" type="string"/>
+        <element label="Short Name" max_length="40" name="short_name" type="string"/>
+        <element label="Valid for Coding" max_length="40" name="valid_for_coding" type="boolean"/>
+    </element>
+</database>

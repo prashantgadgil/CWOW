@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list>number,order_type,patient,physician,effective_from</field_list>
+        <filter/>
+        <glyph>bell-o</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description>Orders</short_description>
+        <size>md</size>
+        <sp_column display_value="1">5e5a1e69db1d4b00e6a0d5f0cf9619a1</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-19 08:37:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cf6a5a69db1d4b00e6a0d5f0cf96198a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Orders</sys_name>
+        <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+        <sys_update_name>sp_instance_table_cf6a5a69db1d4b00e6a0d5f0cf96198a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-19 11:26:49</sys_updated_on>
+        <table>x_bp3g_cwow_order</table>
+        <title>Orders</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf6a5a69db1d4b00e6a0d5f0cf96198a"/>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Questions to Answers" max_length="40" name="x_bp3g_cwow_questions_to_answers" type="collection">
+        <element label="Answer" max_length="32" name="answer" reference="x_bp3g_cwow_answer" type="reference"/>
+        <element label="Question" max_length="32" name="question" reference="x_bp3g_cwow_question" type="reference"/>
+        <index name="index">
+            <element name="answer"/>
+        </index>
+        <index name="index2">
+            <element name="question"/>
+        </index>
+    </element>
+</database>

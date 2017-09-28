@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_bp3g_cwow_orderable_item">x_bp3g_cwow_orderable_item</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ORDITEM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-26 12:43:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6aa517b7db958f00e6a0d5f0cf9619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORDITEM</sys_name>
+        <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+        <sys_update_name>sys_number_6aa517b7db958f00e6a0d5f0cf9619ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-26 12:43:03</sys_updated_on>
+    </sys_number>
+</record_update>

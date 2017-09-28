@@ -23,7 +23,7 @@ $btn-default-bg: #fff;
 $text-muted: #979797;
 </css_variables>
         <default>false</default>
-        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <homepage display_value="cwow_home">60568900db598700e6a0d5f0cf961901</homepage>
         <icon/>
         <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
         <kb_knowledge_page/>
@@ -41,7 +41,7 @@ $text-muted: #979797;
         <sys_created_on>2017-09-14 03:49:47</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>deb76b7fdb458700e6a0d5f0cf9619c5</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>CWOW Portal</sys_name>
         <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
         <sys_policy/>
@@ -49,8 +49,8 @@ $text-muted: #979797;
         <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
         <sys_update_name>sp_portal_deb76b7fdb458700e6a0d5f0cf9619c5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-14 18:21:28</sys_updated_on>
-        <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
+        <sys_updated_on>2017-09-19 09:11:04</sys_updated_on>
+        <theme display_value="CAB Workbench - Default">49d3c5809f231200b18a7feea57fcf9b</theme>
         <title>CWOW Portal</title>
         <url_suffix>cwow</url_suffix>
     </sp_portal>

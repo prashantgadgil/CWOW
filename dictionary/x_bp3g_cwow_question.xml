@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Question" max_length="40" name="x_bp3g_cwow_question" type="collection">
+        <element label="Display Text" max_length="200" name="display_text" type="string"/>
+        <element label="Followup Question" max_length="32" name="followup_question" reference="x_bp3g_cwow_question" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" default="Single Choice" label="Selection Type" max_length="40" name="selection_type" type="choice">
+            <choice>
+                <element label="Single Choice" sequence="10" value="Single Choice"/>
+                <element label="Multiple Choice" sequence="20" value="Multiple Choice"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="followup_question"/>
+        </index>
+    </element>
+</database>

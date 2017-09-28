@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Order" max_length="40" name="x_bp3g_cwow_order" type="collection">
+    <element label="Order" max_length="40" name="x_bp3g_cwow_order" text_index="true" type="collection">
         <element choice="1" label="Access" max_length="40" name="access" type="choice">
             <choice/>
         </element>

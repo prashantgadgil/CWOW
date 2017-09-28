@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Patient" max_length="40" name="x_bp3g_cwow_patient" type="collection">
+    <element label="Patient" max_length="40" name="x_bp3g_cwow_patient" text_index="true" type="collection">
         <element label="Address" max_length="32" name="address" reference="x_bp3g_cwow_address" type="reference"/>
         <element label="DOB" max_length="40" name="dob" type="glide_date"/>
         <element choice="3" default="M" label="Gender" max_length="1" name="gender" type="string">

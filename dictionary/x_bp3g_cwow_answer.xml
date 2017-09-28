@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Answer" max_length="40" name="x_bp3g_cwow_answer" type="collection">
+        <element label="Display Text" max_length="40" name="display_text" type="string"/>
+        <element label="ICD Code" max_length="32" name="icd_code" reference="x_bp3g_cwow_icd_code" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="icd_code"/>
+        </index>
+    </element>
+</database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Appointment" max_length="40" name="x_bp3g_cwow_appointment" type="collection">
+    <element label="Appointment" max_length="40" name="x_bp3g_cwow_appointment" text_index="true" type="collection">
         <element label="Appointment Date" max_length="40" name="appointment_date" type="glide_date"/>
         <element label="Appointment From" max_length="40" name="appointment_from" type="glide_time"/>
         <element label="Appointment To" max_length="40" name="appointment_to" type="glide_time"/>
