@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Patient" max_length="40" name="x_bp3g_cwow_patient" text_index="true" type="collection">
+        <element label="Access Placement Date" max_length="40" name="access_placement_date" type="glide_date"/>
         <element label="Address" max_length="32" name="address" reference="x_bp3g_cwow_address" type="reference"/>
         <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element choice="1" label="Employment" max_length="40" name="employment" type="choice">
+            <choice/>
+        </element>
         <element choice="3" default="M" label="Gender" max_length="1" name="gender" type="string">
             <choice>
                 <element label="Male" sequence="1" value="M"/>
@@ -10,11 +14,15 @@
             </choice>
         </element>
         <element label="Home Facililty" max_length="32" name="home_facililty" reference="x_bp3g_cwow_facility" type="reference"/>
+        <element label="Lanuguage" max_length="40" name="lanuguage" type="string"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
         <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element label="Primary Insurance" max_length="50" name="primary_insurance" type="string"/>
         <element label="Primary Modality" max_length="32" name="primary_modality" reference="x_bp3g_cwow_modality" type="reference"/>
         <element label="Primary Physician" max_length="32" name="primary_physician" reference="x_bp3g_cwow_physician" type="reference"/>
+        <element label="Secondary Insurance" max_length="50" name="secondary_insurance" type="string"/>
         <index name="index">
             <element name="primary_modality"/>
         </index>

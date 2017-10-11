@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="family_members_on_welcome" label="Family Members on Welcome" language="en" table="x_bp3g_cwow_start_smart">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>family_members_on_welcome</element>
+            <help/>
+            <hint/>
+            <label>Family Members on Welcome</label>
+            <language>en</language>
+            <name>x_bp3g_cwow_start_smart</name>
+            <plural>Family Members on Welcomes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-11 16:44:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>95dc1d70db714b00e6a0d5f0cf96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Family Members on Welcome</sys_name>
+            <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+            <sys_update_name>sys_documentation_x_bp3g_cwow_start_smart_family_members_on_welcome_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-11 16:44:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

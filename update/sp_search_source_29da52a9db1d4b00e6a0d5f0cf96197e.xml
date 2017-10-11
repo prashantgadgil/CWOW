@@ -16,6 +16,7 @@
         <name>Orders</name>
         <page/>
         <primary_display_field>number</primary_display_field>
+        <roles/>
         <search_page_template><![CDATA[<div>
   <a href="?id=form&sys_id={{item.sys_id}}&table={{item.table}}" class="h4 text-primary m-b-sm block">
     <span ng-bind-html="highlight(item.primary, data.q)"></span>

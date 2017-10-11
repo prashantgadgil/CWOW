@@ -14,6 +14,7 @@
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description>Orders</short_description>
         <size>md</size>
         <sp_column display_value="1">5e5a1e69db1d4b00e6a0d5f0cf9619a1</sp_column>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Start Smart" max_length="40" name="x_bp3g_cwow_start_smart" type="collection">
+        <element label="Ninety Day Eligible" max_length="40" name="90_day_eligible" type="boolean"/>
+        <element choice="1" label="Attended Kidney Class" max_length="40" name="attended_kidney_class" type="choice">
+            <choice/>
+        </element>
+        <element choice="3" default="Yes" label="Disabilities" max_length="40" name="disabilities" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Family Members on Welcome" max_length="40" name="family_members_on_welcome" type="integer"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_bp3g_cwow_patient" type="reference"/>
+        <element choice="1" label="Source of Reference to Davita" max_length="40" name="source_of_reference_to_davita" type="choice">
+            <choice>
+                <element label="Friend" sequence="0" value="Friend"/>
+                <element label="Doctor" sequence="1" value="Doctor"/>
+                <element label="Internet" sequence="2" value="Internet"/>
+                <element label="Advertisement" sequence="3" value="Advertisement"/>
+            </choice>
+        </element>
+        <element label="Welcome Appointment" max_length="40" name="welcome_appointment" type="glide_date"/>
+        <element choice="3" default="Yes" label="Welcome Eligible" max_length="40" name="welcome_eligible" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+    </element>
+</database>

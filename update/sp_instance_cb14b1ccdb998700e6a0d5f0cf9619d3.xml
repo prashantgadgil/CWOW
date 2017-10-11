@@ -8,6 +8,7 @@
         <glyph/>
         <id/>
         <order>0</order>
+        <roles/>
         <short_description>Patients, Orders, Appointments, Facilities, Physicians</short_description>
         <size>md</size>
         <sp_column display_value="1">4351cb29db9d4b00e6a0d5f0cf961964</sp_column>

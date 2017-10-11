@@ -33,6 +33,7 @@ $text-muted: #979797;
         <quick_start_config/>
         <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sc_catalog_page/>
+        <sc_category_page/>
         <sp_chat_queue/>
         <sp_rectangle_menu display_value="CWOW Menu">ddab6733db858700e6a0d5f0cf9619dd</sp_rectangle_menu>
         <sqanda_knowledge_base display_value="Social QA">5c45a3a0d712120023c84f80de61038b</sqanda_knowledge_base>

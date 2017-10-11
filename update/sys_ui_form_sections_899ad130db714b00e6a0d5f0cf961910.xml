@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="899ad130db714b00e6a0d5f0cf961910" sys_domain="global" table="x_bp3g_cwow_patient" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-11 16:34:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>499a9530db714b00e6a0d5f0cf9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_cwow_patient" name="x_bp3g_cwow_patient" sys_domain="global" view="Default view">899ad130db714b00e6a0d5f0cf961910</sys_ui_form>
+            <sys_ui_section caption="Personal Info" display_value="Personal Info" name="x_bp3g_cwow_patient" sys_domain="global" view="Default view">448031fadb410700e6a0d5f0cf9619b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-11 16:34:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-11 16:34:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>059a9530db714b00e6a0d5f0cf9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_cwow_patient" name="x_bp3g_cwow_patient" sys_domain="global" view="Default view">899ad130db714b00e6a0d5f0cf961910</sys_ui_form>
+            <sys_ui_section caption="Profile" display_value="Profile" name="x_bp3g_cwow_patient" sys_domain="global" view="Default view">c19ad130db714b00e6a0d5f0cf96190f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-11 16:34:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_bp3g_cwow_patient</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-11 16:34:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>899ad130db714b00e6a0d5f0cf961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_bp3g_cwow_patient</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CWOW - Clinic Without Walls" source="x_bp3g_cwow">a75ee1badb410700e6a0d5f0cf96194a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CWOW - Clinic Without Walls">a75ee1badb410700e6a0d5f0cf96194a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_899ad130db714b00e6a0d5f0cf961910</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-11 16:34:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

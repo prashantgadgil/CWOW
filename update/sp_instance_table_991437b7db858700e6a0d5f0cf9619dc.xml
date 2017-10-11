@@ -14,6 +14,7 @@
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description>List of Facilities</short_description>
         <size>md</size>
         <sp_column display_value="1">fbc3fb77db858700e6a0d5f0cf9619e5</sp_column>
